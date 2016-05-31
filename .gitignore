@@ -1,0 +1,6 @@
+.vscode
+dist
+jspm_packages/*/*
+jspm
+node_modules
+typings

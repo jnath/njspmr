@@ -1,0 +1,12 @@
+{
+  "jspm": {
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.22",
+      "domready": "npm:domready@^1.0.8",
+      "react": "npm:react@^15.1.0",
+      "react-burger-menu": "npm:react-burger-menu@^1.9.0",
+      "react-dom": "npm:react-dom@^15.1.0",
+      "react-router": "npm:react-router@^2.4.1"
+    }
+  }
+}
