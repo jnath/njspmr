@@ -11,7 +11,6 @@
     "util": "github:jspm/nodelibs-util@^0.1.0"
   },
   "npm:js-tokens@1.0.3": {},
-  "npm:whatwg-fetch@1.0.0": {},
   "npm:isomorphic-fetch@2.2.1": {
     "node-fetch": "npm:node-fetch@^1.0.1",
     "whatwg-fetch": "npm:whatwg-fetch"
@@ -132,13 +131,6 @@
     "buffer": "npm:buffer@^3.0.1"
   },
   "npm:ieee754@1.1.6": {},
-  "npm:assert@1.4.0": {
-    "buffer-shims": "npm:buffer-shims@1.0.0",
-    "util": "npm:util@0.10.3",
-    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
-    "assert": "github:jspm/nodelibs-assert@^0.1.0",
-    "process": "github:jspm/nodelibs-process@^0.1.0"
-  },
   "npm:base64-js@0.0.8": {},
   "npm:buffer-shims@1.0.0": {
     "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
@@ -385,6 +377,87 @@
     "invariant": "npm:invariant@^2.0.0",
     "query-string": "npm:query-string@^3.0.0",
     "warning": "npm:warning@^2.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:simple-assign@0.1.0": {},
+  "npm:lodash.throttle@4.0.1": {
+    "lodash.debounce": "npm:lodash.debounce@^4.0.0"
+  },
+  "npm:lodash.merge@4.4.0": {
+    "lodash._baseclone": "npm:lodash._baseclone@~4.5.0",
+    "lodash._root": "npm:lodash._root@~3.0.0",
+    "lodash.isplainobject": "npm:lodash.isplainobject@^4.0.0",
+    "lodash.keysin": "npm:lodash.keysin@^4.0.0",
+    "lodash.rest": "npm:lodash.rest@^4.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:react-addons-update@15.1.0": {
+    "react": "npm:react@^15.1.0"
+  },
+  "npm:react-addons-transition-group@15.1.0": {
+    "react": "npm:react@^15.1.0"
+  },
+  "npm:react-addons-create-fragment@15.1.0": {
+    "react": "npm:react@^15.1.0"
+  },
+  "npm:lodash.debounce@4.0.6": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:react-tap-event-plugin@1.0.0": {
+    "fbjs": "npm:fbjs@^0.2.1",
+    "react": "npm:react@^15.0.0-0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:lodash._root@3.0.1": {},
+  "npm:lodash.keysin@4.1.4": {},
+  "npm:lodash.isplainobject@4.0.4": {},
+  "npm:lodash.rest@4.0.3": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:lodash._baseclone@4.5.7": {
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:whatwg-fetch@0.9.0": {},
+  "npm:keycode@2.1.2": {},
+  "npm:react-event-listener@0.1.2": {},
+  "npm:recompose@0.17.0": {
+    "hoist-non-react-statics": "npm:hoist-non-react-statics@^1.0.0",
+    "lodash": "npm:lodash@^4.3.0",
+    "react": "npm:react@^15.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:fbjs@0.2.1": {
+    "core-js": "npm:core-js@^1.0.0",
+    "promise": "npm:promise@^7.0.3",
+    "whatwg-fetch": "npm:whatwg-fetch@^0.9.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:assert@1.4.1": {
+    "util": "npm:util@0.10.3",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "assert": "github:jspm/nodelibs-assert@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:lodash@4.13.1": {
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
+  },
+  "npm:material-ui@0.15.0": {
+    "inline-style-prefixer": "npm:inline-style-prefixer@^1.0.3",
+    "keycode": "npm:keycode@^2.1.1",
+    "lodash.merge": "npm:lodash.merge@^4.3.5",
+    "lodash.throttle": "npm:lodash.throttle@^4.0.1",
+    "react-addons-create-fragment": "npm:react-addons-create-fragment@^15.0.1",
+    "react-addons-transition-group": "npm:react-addons-transition-group@^15.0.1",
+    "react-addons-update": "npm:react-addons-update@^15.0.1",
+    "react-event-listener": "npm:react-event-listener@^0.1.1",
+    "recompose": "npm:recompose@^0.17.0",
+    "simple-assign": "npm:simple-assign@^0.1.0",
+    "warning": "npm:warning@^2.1.0",
+    "react": "npm:react@^15.0.0",
+    "react-dom": "npm:react-dom@^15.0.0",
+    "react-tap-event-plugin": "npm:react-tap-event-plugin@^1.0.0",
     "process": "github:jspm/nodelibs-process@^0.1.0"
   }
 }
