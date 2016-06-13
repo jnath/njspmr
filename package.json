@@ -7,7 +7,8 @@
       "react": "npm:react@^15.1.0",
       "react-burger-menu": "npm:react-burger-menu@^1.9.0",
       "react-dom": "npm:react-dom@^15.1.0",
-      "react-router": "npm:react-router@^2.4.1"
+      "react-router": "npm:react-router@^2.4.1",
+      "react-tap-event-plugin": "npm:react-tap-event-plugin@^1.0.0"
     }
   }
 }

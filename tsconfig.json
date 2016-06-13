@@ -9,12 +9,7 @@
     },
     "files": [
         "./typings/index.d.ts",
-        "./src/modules/NavLink.tsx",
-        "./src/modules/Home.tsx",
-        "./src/modules/About.tsx",
-        "./src/modules/Repos.tsx",
-        "./src/modules/Repo.tsx",
-        "./src/modules/App.tsx",
+        "./src/App.tsx",
         "./src/index.tsx",
         "./src/boot.ts"
     ]
